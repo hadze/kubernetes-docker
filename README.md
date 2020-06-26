@@ -1,5 +1,6 @@
 # kubernetes
-![alt text](kubernetes.png)
+
+<img src="kubernetes_logo.png" width="96">
 
 Kubernetes is a container-orchestration system.
 It provides a platform for automating deployment, scaling, and operations of application containers across clusters of hosts. It works with a range of container tools, including Docker.
@@ -9,5 +10,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [how to log](https://github.com/loodse/k8s-exercises/blob/master/containers/fundamentals/10_logs.md)
 
-![alt text](docker_logo.png)
+
+<img src="docker_logo.png" width="96">
+
 [docker hub](https://hub.docker.com/search?q=&type=image)
