@@ -14,8 +14,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 
 
-[![alt text][image]][hyperlink]
+[![](https://github.com/hadze/kubernetes/blob/master/docker_logo.png =96x)][hyperlink]
 
   [hyperlink]: https://hub.docker.com/u/thehadz
-  [image]: (docker_logo.png)
-   
+ 
