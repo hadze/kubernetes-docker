@@ -1,5 +1,5 @@
 # base image
-FROM alpine:3.5
+FROM alpine:3.7
 
 # Install python and pip and upgrade pip
 RUN apk add --update python3 python3-dev
