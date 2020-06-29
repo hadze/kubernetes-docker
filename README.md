@@ -16,3 +16,8 @@ It provides a platform for automating deployment, scaling, and operations of app
 <a href="https://hub.docker.com/u/thehadz" alt="my docker account">
   <img src="docker_logo.png" align="left" width="96" >
 </a>
+
+
+## examples
+
+### flask application as container
