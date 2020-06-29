@@ -2,7 +2,7 @@
 FROM alpine:3.5
 
 # Install python and pip and upgrade pip
-RUN apk add --update py2-pip
+RUN apk add --update py3-pip
 RUN pip install --upgrade pip
 
 # install Python modules needed for the example
