@@ -2,8 +2,10 @@
 FROM alpine:3.5
 
 # Install python and pip and upgrade pip
-RUN apk add --update py3-pip
+RUN apk add --update python3 python3-dev
 RUN pip install --upgrade pip
+
+#RUN apk upgrade --update && apk add --no-cache python3 python3-dev
 
 # install Python modules needed for the example
 COPY requirements.txt /usr/src/app/
