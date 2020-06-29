@@ -17,8 +17,8 @@ It provides a platform for automating deployment, scaling, and operations of app
   <img src="docker_logo.png" align="left" width="96" >
 </a>
 
-<br></br>
+<br>
+</br>
 
 ## examples
-
-### flask application as container
+[flask application as container](https://github.com/hadze/kubernetes/tree/master/flask)
