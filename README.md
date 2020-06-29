@@ -18,7 +18,9 @@ It provides a platform for automating deployment, scaling, and operations of app
 </a>
 
 <br>
-</br>
+<br>
+<br>
+<br>
 
 ## examples
 [flask application as container](https://github.com/hadze/kubernetes/tree/master/flask)
