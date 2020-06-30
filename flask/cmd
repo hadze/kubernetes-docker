@@ -1,0 +1,31 @@
+#Build our docker image.
+$ docker build -t mydockerflask:latest .
+
+#A bunch of fancy output with loading bars, but at the end we'll get the following confirmation.
+Successfully built dwe12c81056d
+Successfully tagged mydockerflask:latest
+
+
+$ docker images
+REPOSITORY       TAG     IMAGE ID      CREATED         SIZE
+mydockerflask  latest  dwe12c81056d  25 seconds ago  647MB
+
+#Docker Run
+#You can run the build you just created with the docker run command.
+$ docker run -d -p 5000:5000 mydockerflask:latest
+
+#Terminal
+$ open -a "Google Chrome"  http://127.0.0.1:5000/
+
+
+
+#Have some currently running and want to kill them?
+$ docker kill <CONTAINER ID>
+#Check to see if you have any containers even if they are not running.
+$ docker images
+REPOSITORY               TAG     IMAGE ID      CREATED       SIZE
+mtngt/angular_docker  latest  ef5e3c5f33f1  1 hours ago   19MB
+
+#Want to clear out all the not running stuff as well?
+$ docker system prune -a
+#That will delete everything you have in your local docker instance. So be careful.
