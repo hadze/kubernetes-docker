@@ -10,6 +10,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [how to log](https://github.com/loodse/k8s-exercises/blob/master/containers/fundamentals/10_logs.md)
 
+## docker links
 [docker hub official](https://hub.docker.com/search?q=&type=image)  
 
 [docker samples](https://docs.docker.com/samples/)
