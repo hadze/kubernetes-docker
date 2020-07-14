@@ -31,5 +31,4 @@ my docker hub
 [flask application as container](https://github.com/hadze/kubernetes/tree/master/flask)
 
 Based on the Kubernetes tutorial this example will show how a multi-tier web application is built and deployed to a Kubernetes cluster. It consists of Redis as a database backend and a PHP guestbook. Redis will get a single-instance master to store the entries together with multiple replicated instances for reading. The guestbook will run on multiple frontend instances.
-
 [Kubernetes Guestbook Example](https://github.com/loodse/k8s-exercises/tree/master/k8s/fundamentals/kubernetes_example)
