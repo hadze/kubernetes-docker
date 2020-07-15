@@ -7,7 +7,14 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [Helm](https://helm.sh/) is increasingly becoming a standard way for managing applications on Kubernetes. The easiest way to think about Helm is as a package manager for Kubernetes. More details here: [Deploying the ELK Stack on Kubernetes with Helm](https://logz.io/blog/deploying-the-elk-stack-on-kubernetes-with-helm/)
 
-## basic links
+[Kubernetes network-plugins](https://kubedex.com/kubernetes-network-plugins/): Differences between Flannel, Calico, Weave, Cilium, Kube Router, Romana and Contiv.
+
+## machine learning & kubernetes
+[Dask Kubernetes](https://kubernetes.dask.org/en/latest/): Dask Kubernetes deploys Dask workers on Kubernetes clusters using native Kubernetes APIs and it is designed for deployments of workers during the lifetime of a Python process.
+
+[Machine Learning im Kubernetes-Cluster](https://m.heise.de/developer/artikel/Machine-Learning-im-Kubernetes-Cluster-4226233.html?seite=all)
+
+## other basic links
 [training material](https://github.com/loodse/k8s-exercises/tree/master/containers/fundamentals)
 
 [how to log](https://github.com/loodse/k8s-exercises/blob/master/containers/fundamentals/10_logs.md)
