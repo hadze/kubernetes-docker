@@ -2,11 +2,10 @@
 
 <img src="kubernetes_logo.png" width="96">
 
-Kubernetes is a container-orchestration system.
+[Kubernetes](https://kubernetes.io/) is a container-orchestration system.
 It provides a platform for automating deployment, scaling, and operations of application containers across clusters of hosts. It works with a range of container tools, including Docker.
 
-Helm is increasingly becoming a standard way for managing applications on Kubernetes. The easiest way to think about Helm is as a package manager for Kubernetes
-
+[Helm](https://helm.sh/) is increasingly becoming a standard way for managing applications on Kubernetes. The easiest way to think about Helm is as a package manager for Kubernetes
 [Deploying the ELK Stack on Kubernetes with Helm](https://logz.io/blog/deploying-the-elk-stack-on-kubernetes-with-helm/)
 
 ## basic links
