@@ -5,8 +5,7 @@
 [Kubernetes](https://kubernetes.io/) is a container-orchestration system.
 It provides a platform for automating deployment, scaling, and operations of application containers across clusters of hosts. It works with a range of container tools, including Docker.
 
-[Helm](https://helm.sh/) is increasingly becoming a standard way for managing applications on Kubernetes. The easiest way to think about Helm is as a package manager for Kubernetes
-[Deploying the ELK Stack on Kubernetes with Helm](https://logz.io/blog/deploying-the-elk-stack-on-kubernetes-with-helm/)
+[Helm](https://helm.sh/) is increasingly becoming a standard way for managing applications on Kubernetes. The easiest way to think about Helm is as a package manager for Kubernetes. See: [Deploying the ELK Stack on Kubernetes with Helm](https://logz.io/blog/deploying-the-elk-stack-on-kubernetes-with-helm/)
 
 ## basic links
 [training material](https://github.com/loodse/k8s-exercises/tree/master/containers/fundamentals)
