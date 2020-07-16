@@ -12,7 +12,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 ## machine learning & kubernetes
 [Dask Kubernetes](https://kubernetes.dask.org/en/latest/): Dask Kubernetes deploys Dask workers on Kubernetes clusters using native Kubernetes APIs and it is designed for deployments of workers during the lifetime of a Python process.
 
-[Machine Learning im Kubernetes-Cluster](https://m.heise.de/developer/artikel/Machine-Learning-im-Kubernetes-Cluster-4226233.html?seite=all)
+[Machine Learning im Kubernetes-Cluster](https://m.heise.de/developer/artikel/Machine-Learning-im-Kubernetes-Cluster-4226233.html?seite=all). Heise-Artikel
 
 [Kubeflow](https://medium.com/kubeflow/kubeflow-1-0-cloud-native-ml-for-everyone-a3950202751) is a Cloud Native platform for machine learning based on Google’s internal machine learning pipelines.
 
