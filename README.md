@@ -14,6 +14,8 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [Machine Learning im Kubernetes-Cluster](https://m.heise.de/developer/artikel/Machine-Learning-im-Kubernetes-Cluster-4226233.html?seite=all). Heise-Artikel
 
+[Machine Learning auf Kubernetes leicht gemacht](https://jaxenter.de/kubernetes/kubeflow-1-0-machine-learning-auf-kubernetes-leicht-gemacht-92380)
+
 [Kubeflow](https://medium.com/kubeflow/kubeflow-1-0-cloud-native-ml-for-everyone-a3950202751) is a Cloud Native platform for machine learning based on Google’s internal machine learning pipelines.
 
 [Kubeflow - Github](https://github.com/kubeflow/kubeflow)
