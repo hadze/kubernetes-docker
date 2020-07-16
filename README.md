@@ -14,6 +14,10 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [Machine Learning im Kubernetes-Cluster](https://m.heise.de/developer/artikel/Machine-Learning-im-Kubernetes-Cluster-4226233.html?seite=all)
 
+[Kubeflow - Cloud-Native ML for Everyone](https://medium.com/kubeflow/kubeflow-1-0-cloud-native-ml-for-everyone-a3950202751)
+
+[Kubeflow - Github](https://github.com/kubeflow/kubeflow)
+
 ## other basic links
 [training material](https://github.com/loodse/k8s-exercises/tree/master/containers/fundamentals)
 
