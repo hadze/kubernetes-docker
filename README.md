@@ -27,13 +27,13 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 ## docker essentials & links
 
-### The general structure of commands in Docker looks like this:
+#### The general structure of commands in Docker looks like this:
 
 * They always start with "docker" followed by a space
 * Then comes the management category followed by a space
 * And finally, the actual command
 
-### Commands for Docker images
+#### Commands for Docker images
 For images, **docker image** is followed by the respective command. Here is an overview of the most important commands:
 
 command|meaning
@@ -47,7 +47,7 @@ command|meaning
 **rmi** |Deletes an image|
 
 
-### Commands for Docker Containers
+#### Commands for Docker Containers
 Analogous to the commands for Docker images, the commands for Docker containers are structured: **docker container** is followed by the respective command. Here are the most important ones:
 
 command|meaning
@@ -63,7 +63,7 @@ command|meaning
 **logs** |Prints logs|
 
 
-### Other useful Docker commands
+#### Other useful Docker commands
 Following commands are also useful:
 
 command|meaning
@@ -79,8 +79,7 @@ command|meaning
 **docker attach** |Attaches something to a running container|
 **docker commit** |Creates a new image with the changes made to a container|
 
-
-### Commands for volumes:
+#### Commands for volumes:
 listing, creating, and deleting volumes
 
 command|meaning
@@ -89,6 +88,7 @@ command|meaning
 **docker volume create**|Creates volumes|
 **docker volume rm**|Deletes volumes|
 
+#### Links
 
 [docker hub official](https://hub.docker.com/search?q=&type=image)  
 
