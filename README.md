@@ -36,51 +36,58 @@ It provides a platform for automating deployment, scaling, and operations of app
 ### Commands for Docker images
 For images, **docker image** is followed by the respective command. Here is an overview of the most important commands:
 
-**build** - Builds an image
-**push** - Pushes an image to a remote registry
-**pull** - Pulls an image or repository from a registry
-**ls** - Lists all existing images
-**history** - Displays all information about an intermediate image
-**inspect** - Displays detailed information about an image, including the individual layers
-**rmi** - Deletes an image
+command|meaning
+---|---|
+**build** |Builds an image|
+**push** |Pushes an image to a remote registry|
+**pull** |Pulls an image or repository from a registry|
+**ls** |Lists all existing images|
+**history** |Displays all information about an intermediate image|
+**inspect** |Displays detailed information about an image, including the individual layers|
+**rmi** |Deletes an image|
 
 
 ### Commands for Docker Containers
 Analogous to the commands for Docker images, the commands for Docker containers are structured: **docker container** is followed by the respective command. Here are the most important ones:
 
-**create** - Creates a container from an image
-**start** - Starts an existing container
-**run** - Creates a new container and starts it
-**ls** - Lists all running containers
-**inspect** - Displays detailed information about a container
-**stop** - Stops a running container
-**kill** - Stops the main process in a container abruptly
-**rm** - Deletes a stopped container
-**logs** - Prints logs
+command|meaning
+---|---|
+**create** |Creates a container from an image|
+**start** |Starts an existing container|
+**run** |Creates a new container and starts it|
+**ls** |Lists all running containers|
+**inspect** |Displays detailed information about a container|
+**stop** |Stops a running container|
+**kill** |Stops the main process in a container abruptly|
+**rm** |Deletes a stopped container|
+**logs** |Prints logs|
 
 
 ### Other useful Docker commands
 Following commands are also useful:
 
-**docker version** - Displays the Docker version of Echo client and server.
-**docker images** - Lists all Docker images.
-**docker save \<path> \<image>** - Saves a Docker image to a .tar file further specified by "path".
-**docker export** - Exports a container's filesystem as a tar archive.
-**docker exec** - Executes a command in a running container.
-**docker ps -a** - Displays all containers (the -a stands for the -all flag).
-**docker ps -l** - Displays the last container created.
-**docker search** - Searches the Docker Hub for images.
-**docker attach** - Attaches something to a running container.
-**docker commit** - Creates a new image with the changes made to a container. 
+command|meaning
+---|---|
+**docker version** |Displays the Docker version of Echo client and server|
+**docker images** |Lists all Docker images|
+**docker save \<path> \<image>** |Saves a Docker image to a .tar file further specified by "path"|
+**docker export** |Exports a container's filesystem as a tar archive|
+**docker exec** |Executes a command in a running container|
+**docker ps -a** |Displays all containers (the -a stands for the -all flag)|
+**docker ps -l** |Displays the last container created|
+**docker search** |Searches the Docker Hub for images|
+**docker attach** |Attaches something to a running container|
+**docker commit** |Creates a new image with the changes made to a container|
 
 
 ### Commands for volumes:
 listing, creating, and deleting volumes
 
-<span style="color:red">*docker volume ls*</span>
-**docker volume create**
-**docker volume rm**
-
+command|meaning
+---|---|
+**docker volume ls**|Lists volumes|
+**docker volume create**|Creates volumes|
+**docker volume rm**|Deletes volumes|
 
 
 [docker hub official](https://hub.docker.com/search?q=&type=image)  
