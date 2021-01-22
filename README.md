@@ -76,7 +76,8 @@ Following commands are also useful:
 
 ### Commands for volumes:
 listing, creating, and deleting volumes
-<span style="color:blue">**docker volume ls**</span>
+
+<span style="color:red">*docker volume ls*</span>
 **docker volume create**
 **docker volume rm**
 
