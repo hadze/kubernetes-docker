@@ -27,6 +27,13 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 ## docker essentials & links
 
+#### Docker Image vs. Container
+There are some important differences between Docker Images and Docker Containers. A Docker Image consists of a Docker file and all the required dependencies. A Docker Container, in somewhat simplified terms, is a Docker Image that has been started. However, each image can run multiple containers. One can think of an Image as the class of a program while the container is the running instance of the class
+blueprint|object
+---|---|
+class|instance|
+image|container|
+
 #### The general structure of commands in Docker looks like this:
 
 * They always start with "docker" followed by a space
