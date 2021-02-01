@@ -13,8 +13,8 @@ images = [
 
 @app.route('/')
 def index():
-    url = random.choice(images)
-    return render_template('index.html', url=url)
+    urls_with_images = random.choice(images)
+    return render_template('index.html', url=urls_with_images)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
