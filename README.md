@@ -96,7 +96,7 @@ command|meaning
 **docker volume rm**|Deletes volumes|
 
 #### Workflow for creating/handling images and containers
-[](https://github.com/hadze/kubernetes/blob/master/images/docker.png)
+![alt text](https://github.com/hadze/kubernetes/blob/master/images/docker.png)
 
 #### Links
 
