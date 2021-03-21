@@ -126,4 +126,11 @@ my docker hub
 
 [Kubernetes Guestbook Example](https://github.com/loodse/k8s-exercises/tree/master/k8s/fundamentals/kubernetes_example): Based on the Kubernetes tutorial this example will show how a multi-tier web application is built and deployed to a Kubernetes cluster. It consists of Redis as a database backend and a PHP guestbook. Redis will get a single-instance master to store the entries together with multiple replicated instances for reading. The guestbook will run on multiple frontend instances.
 
-[simple docker example with NUnit tests](t.b.d)
+[simple docker example with unit tests](t.b.d)
+Run the following commands:
+
+$ docker build . -t unittestexample
+$ docker run --rm unittestexample sh -c "python test.py"
+
+First line builds the image defined by the content within the Dockerfile.
+Second line starts the container and executes the unittest (test.py). Notice that the container is going to be removed after the test has been executed (--rm)
