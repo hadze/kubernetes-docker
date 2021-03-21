@@ -26,6 +26,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 [how to log](https://github.com/loodse/k8s-exercises/blob/master/containers/fundamentals/10_logs.md)
 
 ## docker essentials & links
+
 <img src="docker_logo.png" align="left" width="96" >
 
 #### Docker Image vs. Container
