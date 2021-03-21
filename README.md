@@ -27,7 +27,8 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 ## docker essentials & links
 
-<img src="docker_logo.png" align="left" width="96" >
+<img src="docker_logo.png" align="left" width="96">
+
 
 #### Docker Image vs. Container
 There are some important differences between Docker Images and Docker Containers. A Docker Image consists of a Docker file and all the required dependencies. A Docker Container, in somewhat simplified terms, is a Docker Image that has been started. However, each image can run multiple containers. One can think of an Image as the class of a program while the container is the running instance of the class
@@ -124,3 +125,5 @@ my docker hub
 [flask application as container](https://github.com/hadze/kubernetes/tree/master/flask)
 
 [Kubernetes Guestbook Example](https://github.com/loodse/k8s-exercises/tree/master/k8s/fundamentals/kubernetes_example): Based on the Kubernetes tutorial this example will show how a multi-tier web application is built and deployed to a Kubernetes cluster. It consists of Redis as a database backend and a PHP guestbook. Redis will get a single-instance master to store the entries together with multiple replicated instances for reading. The guestbook will run on multiple frontend instances.
+
+[simple docker example with NUnit tests](t.b.d)
