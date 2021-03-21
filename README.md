@@ -131,9 +131,10 @@ Based on the Kubernetes tutorial this example will show how a multi-tier web app
 [simple docker example with unit tests](https://github.com/hadze/kubernetes-docker/tree/master/unittest)
 
 Run the following commands:
-
+```bat
 $ docker build . -t unittestexample
 $ docker run --rm unittestexample sh -c "python test.py"
+```
 
 First line builds the image defined by the content within the Dockerfile.
 Second line starts the container and executes the unittest (test.py). Notice that the container is going to be removed after the test has been executed (--rm)
