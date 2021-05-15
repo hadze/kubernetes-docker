@@ -25,7 +25,7 @@ It provides a platform for automating deployment, scaling, and operations of app
 
 [how to log](https://github.com/loodse/k8s-exercises/blob/master/containers/fundamentals/10_logs.md)
 
-## docker essentials & links
+# docker essentials & links
 
 <img src="docker_logo.png" align="left" width="96">
 
@@ -121,7 +121,45 @@ my docker hub
 <br>
 <br>
 
-## examples
+
+#### Docker - How to cleanup (unused) resources
+
+Docker takes a conservative approach to cleaning up unused objects (often referred to as “garbage collection”), such as images, containers, volumes, and networks: these objects are generally not removed unless you explicitly ask Docker to do so. This can cause Docker to use extra disk space.
+Once in a while, you may therefore need to cleanup resources (containers, volumes, images, networks) ...
+    
+##### delete volumes
+    
+    $ docker volume rm $(docker volume ls -qf dangling=true)
+    $ docker volume ls -qf dangling=true | xargs -r docker volume rm
+    
+##### delete networks
+
+    $ docker network ls  
+    $ docker network ls | grep "bridge"   
+    $ docker network rm $(docker network ls | grep "bridge" | awk '/ / { print $1 }')
+    
+##### remove docker images
+    
+    $ docker images
+    $ docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+    
+    $ docker images | grep "none"
+    $ docker rmi $(docker images | grep "none" | awk '/ / { print $3 }')
+
+##### remove docker containers
+
+    $ docker ps
+    $ docker ps -a
+    $ docker rm $(docker ps -qa --no-trunc --filter "status=exited")
+    
+##### Resize disk space for docker vm
+    
+    $ docker-machine create --driver virtualbox --virtualbox-disk-size "20000" default
+
+
+
+
+# examples
 [flask application as container](https://github.com/hadze/kubernetes-docker/tree/master/flask)
 
 [Kubernetes Guestbook Example](https://github.com/loodse/k8s-exercises/tree/master/k8s/fundamentals/kubernetes_example): 
